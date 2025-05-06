@@ -27,7 +27,6 @@ p{
     font-weight: 300;
     color: #8B8B8B;
 }
-
 svg{
     width: 60px;
     height: 2px;
@@ -74,17 +73,21 @@ a{
     height: 40px;
 }
 .box{
-    padding-top: 40px;
+    margin-top: 40px;
 }
 .treti{
     padding-bottom: 60px;
 }
+
 
 @media screen and (min-width: 770px) {
 
     .panel{
         display: flex;
         gap: 20px;
+    }
+    p{
+        max-width: 550px;
     }
     .banner{
         flex-basis: calc((100% - 40px) / 3);
@@ -112,7 +115,58 @@ a{
     }
 }
 @media screen and (min-width: 1100px) {
-
+.box{
+    margin:80px auto;
+    max-width: 1040px;
+}
+.prvni{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+.uvod{
+    flex-basis: calc((100% - 60px) / 2);
+    max-width: 490px;
+    text-align:start;
+}
+.kontejner{
+    flex-basis: calc((100% - 60px) / 2);
+    max-width: 490px;
+    text-align:center;
+}
+.traveler{
+    width: 425px;
+}
+p{
+    margin: 20px 0px;
+}
+.tlacitka{
+    justify-content: flex-start;
+    gap: 20px;
+}
+.druhy{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.treti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+.text{
+    width: 430px;
+    text-align: start;
+}
+.panel{
+    width: 550px;
+}
 
 
 
