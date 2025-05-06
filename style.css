@@ -12,11 +12,12 @@ body {
 }
 h1{
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 h2{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 p{
     max-width: 460px;
@@ -24,8 +25,17 @@ p{
     font-weight: 300;
     color: #8B8B8B;
 }
-p .banner{
+
+svg{
+    
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+}
+.banner p{
     font-size: 13px;
+    text-align: start;
+    margin: 30px 20px 30px 0px;
 }
 a{
     display: inline-block;
@@ -49,6 +59,19 @@ a{
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     max-width: 460px;
+    align-items: center;
+
+}
+.obr{
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+}
+.box{
+    padding-top: 40px;
+}
+.treti{
+    padding-bottom: 60px;
 }
 
 @media screen and (min-width: 770px) {
