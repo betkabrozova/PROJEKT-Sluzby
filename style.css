@@ -9,6 +9,8 @@ body {
     text-align: center;
     font-size: 16px;
     background-color: #FAFAFA;
+    padding: 0px 20px;
+    margin: 0px;
 }
 h1{
     font-size: 28px;
@@ -27,7 +29,6 @@ p{
 }
 
 svg{
-    
     width: 60px;
     height: 2px;
     background-color: #407BFF;
@@ -35,7 +36,12 @@ svg{
 .banner p{
     font-size: 13px;
     text-align: start;
-    margin: 30px 20px 30px 0px;
+    margin: 10px;
+}
+.tlacitka{
+    display: flex;
+    flex-direction: column;
+
 }
 a{
     display: inline-block;
@@ -60,12 +66,12 @@ a{
     border-radius: 10px;
     max-width: 460px;
     align-items: center;
-
+    gap: 20px;
+    padding: 20px;
 }
 .obr{
     width: 50px;
     height: 40px;
-    margin: 20px;
 }
 .box{
     padding-top: 40px;
@@ -78,10 +84,48 @@ a{
 
     .panel{
         display: flex;
-        gap:20px;
-
+        gap: 20px;
     }
     .banner{
         flex-basis: calc((100% - 40px) / 3);
+        flex-direction: column; 
+        padding: 40px 15px;
     }
+    .banner p{
+        text-align: center;
+        margin: 0px;
+    }
+    .tlacitka{
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    a{
+        margin: 10px 0px;
+    }
+    .obr{
+        width: 45px;
+        height: 40px;
+    }
+    .traveler{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1100px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
