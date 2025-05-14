@@ -170,7 +170,11 @@ p{
 .panel{
     width: 550px;
 }
-
+@media (prefers-color-scheme: dark){
+    .plaz{
+    background-color: #0797bf;
+}
+}
 
 
 
