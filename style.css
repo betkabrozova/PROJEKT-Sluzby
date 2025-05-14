@@ -1,6 +1,7 @@
 html { box-sizing: border-box; }
 *, :after, :before { box-sizing: inherit; }
 
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -81,41 +82,61 @@ a{
     max-width: 100%;
     height: auto;
 }
+    @media (prefers-color-scheme: dark){
+    body{
+        color:white;
+        background-color: #212020;
+
+    }
+    .banner{
+        background-color: #404040;
+    }
+    .banner p{
+        color:rgb(222, 248, 249);
+    }
+    .plaz{
+        background-color: #0797bf;
+    }
+    .traveler {
+        filter: brightness(80%);
+    }
+    }
 
 
 @media screen and (min-width: 770px) {
 
-    .panel{
-        display: flex;
-        gap: 20px;
-    }
-    p{
-        max-width: 550px;
-    }
-    .banner{
-        flex-basis: calc((100% - 40px) / 3);
-        flex-direction: column; 
-        padding: 40px 15px;
-    }
-    .banner p{
-        text-align: center;
-        margin: 0px;
-    }
-    .tlacitka{
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-    }
-    a{
-        margin: 10px 0px;
-    }
-    .obr{
-        width: 45px;
-        height: 40px;
-    }
-    .traveler{
-        width: 400px;
-    }
+.panel{
+    display: flex;
+    gap: 20px;
+}
+p{
+    max-width: 550px;
+}
+.banner{
+    flex-basis: calc((100% - 40px) / 3);
+    flex-direction: column; 
+    padding: 40px 15px;
+}
+.banner p{
+    text-align: center;
+    margin: 0px;
+}
+.tlacitka{
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+a{
+    margin: 10px 0px;
+}
+.obr{
+    width: 45px;
+    height: 40px;
+}
+.traveler{
+    width: 400px;
+}
+    
 }
 @media screen and (min-width: 1100px) {
 .box{
@@ -170,23 +191,6 @@ p{
 .panel{
     width: 550px;
 }
-@media (prefers-color-scheme: dark){
-    .plaz{
-    background-color: #0797bf;
-}
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 }
