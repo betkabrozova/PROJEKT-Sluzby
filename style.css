@@ -14,12 +14,12 @@ body {
 }
 h1{
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 h2{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 p{
     max-width: 460px;
@@ -36,6 +36,7 @@ svg{
     font-size: 13px;
     text-align: start;
     margin: 10px;
+    font-weight: 400;
 }
 .tlacitka{
     display: flex;
@@ -73,10 +74,12 @@ a{
     height: 40px;
 }
 .box{
-    margin-top: 40px;
+    margin: 60px 20px;
 }
-.treti{
-    padding-bottom: 60px;
+
+.traveler{
+    max-width: 100%;
+    height: auto;
 }
 
 
